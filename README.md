@@ -9,7 +9,7 @@ Open GitHub → search "pytest" → open `pytest-dev/pytest` repo → verify "Co
 ```bash
 pip install -r requirements.txt
 playwright install chromium
-pytest tests/test_github.py -v -s
+pytest test_github.py -v -s
 ```
 
 **Tech:** Python 3.14, Playwright, pytest.  
