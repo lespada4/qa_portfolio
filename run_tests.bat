@@ -3,7 +3,8 @@ echo Installing dependencies...
 pip install -r requirements.txt
 python -m playwright install chromium
 
-echo Running tests...
-python -m pytest test_github.py -v -s
+echo.
+echo Running all tests...
+python -m pytest test_github.py test_saucedemo.py -v -s
 
 pause
